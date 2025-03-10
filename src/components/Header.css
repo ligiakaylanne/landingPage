@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header img {
+    height: 60px; 
+}
+
+.header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.header nav {
+    padding-right: 20px;
+}
