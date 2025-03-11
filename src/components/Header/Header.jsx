@@ -1,13 +1,10 @@
-import React from 'react'
-import logo from "../assets/img/logo.png"; 
-import './Header.css'
-
+import "./Header.css"
 
 function Header() {
   return (
     <>
      <header className="header">
-      <img src={logo} alt="Logo da empresa" className="logo" />
+      <img src=".\assets\logo.png" alt="Logo da empresa" className="logo" />
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -21,4 +18,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
