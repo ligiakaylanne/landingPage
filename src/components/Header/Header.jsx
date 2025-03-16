@@ -4,7 +4,7 @@ import "./Header.css"
 function Header() {
   return (
     <>
-      <header className="header">
+      <header class="header">
         <img src=".\assets\logo.png" alt="Logo da empresa" className="logo" />
         <nav>
           <ul>
