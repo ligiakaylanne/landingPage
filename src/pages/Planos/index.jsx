@@ -5,7 +5,7 @@ export default function Planos(){
         <h2 className="font-[600] text-[28px] text-[#233E99BF]">Conheça nossos planos</h2>
         <p className="text-[#505050]">Planos que cabem no seu bolso</p>
       </section>
-      <section className="flex flex-row items-center justify-center gap-[40px] text-[#505050] mt-[80px]">
+      <section className="flex flex-row flex-wrap items-center justify-center gap-[40px] text-[#505050] mt-[80px] ml-[10px] mr-[10px]">
         <div className="w-[331px] border rounded-[8px] text-center pt-[20px]">
           <p className="font-[600] text-[28px] text-[#b59788]">Mensal</p>
           <p className="font-[600] text-[38px]">R$ 180,00</p>
